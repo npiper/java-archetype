@@ -62,3 +62,5 @@ git commit -m 'initial gh-pages commit'
 git push origin gh-pages
 
 git checkout develop
+git merge master
+git push --set-upstream origin develop
