@@ -12,6 +12,9 @@
 # Maven files
 /target
 
+# Checkstyle
+.checkstyle
+
 # Log file
 *.log
 
