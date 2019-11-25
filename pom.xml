@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>java-archetype</artifactId>
-  <version>1.0.0_${revision}</version>
+  <version>1.1.0</version>
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - java-archetype</name>
@@ -13,11 +13,11 @@
 	<parent>
 		<groupId>neilpiper.me</groupId>
 		<artifactId>parent.org</artifactId>
-		<version>0.0.1_43.3908675</version>
+		<version>(,1.0]</version>
 	</parent>
 
   <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/npiper/npiper-rest-reference</url>
 
   <properties>
     <revision>0-SNAPSHOT</revision>
@@ -43,6 +43,7 @@
 					<artifactId>maven-archetype-plugin</artifactId>
 					<version>3.0.1</version>
 					<configuration>
+					    <!-- include these files as well as .java classes -->
 						<archetypeFilteredExtentions>js,json,md,java,xml,txt,groovy,jsp,vm,html,properties,md</archetypeFilteredExtentions>
 					</configuration>
 				</plugin>

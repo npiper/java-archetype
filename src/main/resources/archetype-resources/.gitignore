@@ -8,6 +8,7 @@
 .checkstyle
 .pmd
 .pmdruleset.xml
+.factorypath
 
 # Maven files
 /target
