@@ -44,7 +44,7 @@
 					<version>3.0.1</version>
 					<configuration>
 					    <!-- include these files as well as .java classes -->
-						<archetypeFilteredExtentions>js,json,md,java,xml,txt,groovy,jsp,vm,html,properties,md</archetypeFilteredExtentions>
+						<archetypeFilteredExtentions>yml,js,json,md,java,xml,txt,groovy,jsp,vm,html,properties,md</archetypeFilteredExtentions>
 					</configuration>
 				</plugin>
 
